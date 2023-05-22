@@ -37,7 +37,7 @@ $ pnpm install
 $ pnpm --filter "react-app" start
 ```
 
-#### server - Node.js App
+### server - Node.js App
 
 ```bash
 $ pnpm --filter "node-app" start
@@ -70,6 +70,7 @@ Require using the cjs format
 Utilize commonly used project configuration tsconfig.json
 
 ```typescript
+
 // apps/*/index.{ts,tsx,jsx}
 import { AppType } from '@infras/shared/types';
 import { sum } from '@infras/shared/utils';
